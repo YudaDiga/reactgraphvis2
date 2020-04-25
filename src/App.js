@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import HeadDashPanel from "./Components/HeadDashPanel/HeadDashPanel";
+import NetworkMap from "./Components/NetworkMap/NetworkMap";
+import NotificationBar from "./Components/NotificationBar/NotificationBar";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="Header">
+        <HeadDashPanel />
       </header>
+      <body className="Body">
+        <NotificationBar className="NotificationBar" />
+        <NetworkMap className="NetworkMap" />
+      </body>
+      <footer className="Footer">This is the Footer</footer>
     </div>
   );
 }
