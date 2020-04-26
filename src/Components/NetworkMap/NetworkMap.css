@@ -4,3 +4,10 @@
   top: 0;
   bottom: 0;
 }
+.heading {
+  text-align: center;
+  text-shadow: black 3px 3px 3px;
+  text-underline-position: below;
+  text-rendering: optimizeSpeed;
+  text-decoration-color: blueviolet;
+}

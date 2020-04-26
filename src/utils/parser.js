@@ -20,7 +20,8 @@ for (var i = 0; i < out.length; i++) {
     city: out[i].CITY,
     label: out[i].label,
     shape: "circularImage",
-    image: "https://cdn.svgporn.com/logos/google-icon.svg",
+    image: "https://cdn.svgporn.com/logos/google-play-icon.svg",
+    imagedisplay: out[i].image,
     info: out[i].Information,
   };
   graph.nodes.push(node);

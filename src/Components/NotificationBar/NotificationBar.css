@@ -1,7 +1,54 @@
 .NotificationBar {
+  display: flex;
+  flex-direction: column;
   background: #26b2c3;
   position: relative;
   top: 0px;
   bottom: 0px;
   max-width: 250px;
+  flex-wrap: wrap;
+}
+.imageContainer {
+  height: 100px;
+  width: 100px;
+}
+.headingtwo {
+  color: #7c795d;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0 0 24px;
+  text-align: center;
+  text-shadow: black 2px 2px 2px;
+}
+.ID {
+  color: #7c795d;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0 0 24px;
+  text-align: center;
+  text-shadow: black 2px 2px 2px;
+}
+.city {
+  color: #7c795d;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0 0 24px;
+  text-align: center;
+  text-shadow: black 2px 2px 2px;
+}
+.info {
+  color: #7c795d;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0 0 24px;
+  text-align: center;
+  text-shadow: black 2px 2px 2px;
 }

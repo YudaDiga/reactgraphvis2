@@ -1,1 +1,266 @@
-{"nodes":[{"id":"KARNATAK","city":"null","label":"KARNATAK","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"INDIA"},{"id":"UTTAR PRADESH","city":"null","label":"UTTAR PRADESH","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"INDIA"},{"id":"MAHARASHTRA","city":"null","label":"MAHARASHTRA","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"INDIA"},{"id":"RAJASTHAN","city":"null","label":"RAJASTHAN","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"INDIA"},{"id":"KERELA","city":"null","label":"KERELA","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"INDIA"},{"id":"DELHI","city":"null","label":"DELHI","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"INDIA"},{"id":"SHASHANK","city":"BENGALURU","label":"SHASHANK","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"ME"},{"id":"POOJA","city":"PRAYAGRAJ","label":"POOJA","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"GIRLFRIEND"},{"id":"KIRAN","city":"PRAYAGRAJ","label":"KIRAN","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FAMILY"},{"id":"RAJESH","city":"PRAYAGRAJ","label":"RAJESH","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FAMILY"},{"id":"MRIDULA","city":"BENGALURU","label":"MRIDULA","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FAMILY"},{"id":"HARSHIT","city":"BENGALURU","label":"HARSHIT","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FRIEND"},{"id":"ARCHIT","city":"PRAYAGRAJ","label":"ARCHIT","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FRIEND"},{"id":"AYUSH","city":"BENGALURU","label":"AYUSH","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FRIEND"},{"id":"HARSHVARDHAN","city":"SONEBHADRA","label":"HARSHVARDHAN","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FRIEND"},{"id":"SARTHAK","city":"PUNE","label":"SARTHAK","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FRIEND"},{"id":"AKARSH","city":"BARELI","label":"AKARSH","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FRIEND"},{"id":"MUDIT","city":"NOIDA","label":"MUDIT","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FRIEND"},{"id":"SAKSHAM","city":"JAIPUR","label":"SAKSHAM","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FRIEND"},{"id":"ASHUTOSH","city":"LUCKNOW","label":"ASHUTOSH","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FRIEND"},{"id":"PAUL","city":"TRIVANTHAPURAM","label":"PAUL","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FRIEND"},{"id":"PARITOSH","city":"SEVAI MADHOPUR","label":"PARITOSH","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FRIEND"},{"id":"SUVAM","city":"PUNE","label":"SUVAM","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FRIEND"},{"id":"ASHISH","city":"JAIPUR","label":"ASHISH","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FRIEND"},{"id":"ABHINAV","city":"DELHI","label":"ABHINAV","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FRIEND"},{"id":"DHRUV","city":"GHAZIABAD","label":"DHRUV","shape":"circularImage","image":"https://cdn.svgporn.com/logos/google-icon.svg","info":"FRIEND"}],"edges":[{"from":"SHASHANK","to":"KARNATAK"},{"from":"SHASHANK","to":"UTTAR PRADESH"},{"from":"SHASHANK","to":"MAHARASHTRA"},{"from":"SHASHANK","to":"RAJASTHAN"},{"from":"SHASHANK","to":"KERELA"},{"from":"SHASHANK","to":"DELHI"},{"from":"KARNATAK","to":"SHASHANK"},{"from":"UTTAR PRADESH","to":"POOJA"},{"from":"UTTAR PRADESH","to":"KIRAN"},{"from":"UTTAR PRADESH","to":"RAJESH"},{"from":"KARNATAK","to":"MRIDULA"},{"from":"KARNATAK","to":"HARSHIT"},{"from":"UTTAR PRADESH","to":"ARCHIT"},{"from":"KARNATAK","to":"AYUSH"},{"from":"UTTAR PRADESH","to":"HARSHVARDHAN"},{"from":"MAHARASHTRA","to":"SARTHAK"},{"from":"KARNATAK","to":"AKARSH"},{"from":"UTTAR PRADESH","to":"MUDIT"},{"from":"RAJASTHAN","to":"SAKSHAM"},{"from":"UTTAR PRADESH","to":"ASHUTOSH"},{"from":"KERELA","to":"PAUL"},{"from":"RAJASTHAN","to":"PARITOSH"},{"from":"MAHARASHTRA","to":"SUVAM"},{"from":"RAJASTHAN","to":"ASHISH"},{"from":"DELHI","to":"ABHINAV"},{"from":"UTTAR PRADESH","to":"DHRUV"}]}
+{
+  "nodes": [
+    {
+      "id": "KARNATAK",
+      "city": 503,
+      "label": "KARNATAK",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "KARNATAK.jpg",
+      "info": "INDIA"
+    },
+    {
+      "id": "UTTAR PRADESH",
+      "city": 1873,
+      "label": "UTTAR PRADESH",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "UTTAR PRADESH.jpg",
+      "info": "INDIA"
+    },
+    {
+      "id": "MAHARASHTRA",
+      "city": 8068,
+      "label": "MAHARASHTRA",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "MAHARASHTRA.jpg",
+      "info": "INDIA"
+    },
+    {
+      "id": "RAJASTHAN",
+      "city": 2185,
+      "label": "RAJASTHAN",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "RAJASTHAN.jpg",
+      "info": "INDIA"
+    },
+    {
+      "id": "KERELA",
+      "city": 469,
+      "label": "KERELA",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "KERELA.jpg",
+      "info": "INDIA"
+    },
+    {
+      "id": "DELHI",
+      "city": 2918,
+      "label": "DELHI",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "DELHI.jpg",
+      "info": "INDIA"
+    },
+    {
+      "id": "SHASHANK",
+      "city": "BENGALURU",
+      "label": "SHASHANK",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "SHASHANK DWIVEDI.JPG",
+      "info": "ME"
+    },
+    {
+      "id": "POOJA",
+      "city": "PRAYAGRAJ",
+      "label": "POOJA",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "POOJA SINGH.JPG",
+      "info": "FRIEND"
+    },
+    {
+      "id": "KIRAN",
+      "city": "PRAYAGRAJ",
+      "label": "KIRAN",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "KIRAN.JPG",
+      "info": "FAMILY"
+    },
+    {
+      "id": "RAJESH",
+      "city": "PRAYAGRAJ",
+      "label": "RAJESH",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "RAJESH.JPG",
+      "info": "FAMILY"
+    },
+    {
+      "id": "MRIDULA",
+      "city": "BENGALURU",
+      "label": "MRIDULA",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "MRIDULA.JPG",
+      "info": "FAMILY"
+    },
+    {
+      "id": "HARSHIT",
+      "city": "BENGALURU",
+      "label": "HARSHIT",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "HARSHIT.JPG",
+      "info": "FRIEND"
+    },
+    {
+      "id": "ARCHIT",
+      "city": "PRAYAGRAJ",
+      "label": "ARCHIT",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "ARCHIT.JPG",
+      "info": "FRIEND"
+    },
+    {
+      "id": "AYUSH",
+      "city": "BENGALURU",
+      "label": "AYUSH",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "AYUSH.JPG",
+      "info": "FRIEND"
+    },
+    {
+      "id": "HARSHVARDHAN",
+      "city": "SONEBHADRA",
+      "label": "HARSHVARDHAN",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "HARSHVARDHAN.JPG",
+      "info": "FRIEND"
+    },
+    {
+      "id": "SARTHAK",
+      "city": "PUNE",
+      "label": "SARTHAK",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "SARTHAK.JPG",
+      "info": "FRIEND"
+    },
+    {
+      "id": "AKARSH",
+      "city": "BARELI",
+      "label": "AKARSH",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "AKARSH.JPG",
+      "info": "FRIEND"
+    },
+    {
+      "id": "MUDIT",
+      "city": "NOIDA",
+      "label": "MUDIT",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "MUDIT.JPG",
+      "info": "FRIEND"
+    },
+    {
+      "id": "SAKSHAM",
+      "city": "JAIPUR",
+      "label": "SAKSHAM",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "dummy.jpg",
+      "info": "FRIEND"
+    },
+    {
+      "id": "ASHUTOSH",
+      "city": "LUCKNOW",
+      "label": "ASHUTOSH",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "ASHUTOSH.JPG",
+      "info": "FRIEND"
+    },
+    {
+      "id": "PAUL",
+      "city": "TRIVANTHAPURAM",
+      "label": "PAUL",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "dummy.jpg",
+      "info": "FRIEND"
+    },
+    {
+      "id": "PARITOSH",
+      "city": "SEVAI MADHOPUR",
+      "label": "PARITOSH",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "PARITOSH.JPG",
+      "info": "FRIEND"
+    },
+    {
+      "id": "SUVAM",
+      "city": "PUNE",
+      "label": "SUVAM",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "SUVAM.JPG",
+      "info": "FRIEND"
+    },
+    {
+      "id": "ASHISH",
+      "city": "JAIPUR",
+      "label": "ASHISH",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "ASHISH.JPG",
+      "info": "FRIEND"
+    },
+    {
+      "id": "ABHINAV",
+      "city": "DELHI",
+      "label": "ABHINAV",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "ABHINAV.JPG",
+      "info": "FRIEND"
+    },
+    {
+      "id": "DHRUV",
+      "city": "GHAZIABAD",
+      "label": "DHRUV",
+      "shape": "circularImage",
+      "image": "https://cdn.svgporn.com/logos/google-play-icon.svg",
+      "imagedisplay": "DHRUV.JPG",
+      "info": "FRIEND"
+    }
+  ],
+  "edges": [
+    { "from": "SHASHANK", "to": "KARNATAK" },
+    { "from": "SHASHANK", "to": "UTTAR PRADESH" },
+    { "from": "SHASHANK", "to": "MAHARASHTRA" },
+    { "from": "SHASHANK", "to": "RAJASTHAN" },
+    { "from": "SHASHANK", "to": "KERELA" },
+    { "from": "SHASHANK", "to": "DELHI" },
+    { "from": "KARNATAK", "to": "SHASHANK" },
+    { "from": "UTTAR PRADESH", "to": "POOJA" },
+    { "from": "UTTAR PRADESH", "to": "KIRAN" },
+    { "from": "UTTAR PRADESH", "to": "RAJESH" },
+    { "from": "KARNATAK", "to": "MRIDULA" },
+    { "from": "KARNATAK", "to": "HARSHIT" },
+    { "from": "UTTAR PRADESH", "to": "ARCHIT" },
+    { "from": "KARNATAK", "to": "AYUSH" },
+    { "from": "UTTAR PRADESH", "to": "HARSHVARDHAN" },
+    { "from": "MAHARASHTRA", "to": "SARTHAK" },
+    { "from": "KARNATAK", "to": "AKARSH" },
+    { "from": "UTTAR PRADESH", "to": "MUDIT" },
+    { "from": "RAJASTHAN", "to": "SAKSHAM" },
+    { "from": "UTTAR PRADESH", "to": "ASHUTOSH" },
+    { "from": "KERELA", "to": "PAUL" },
+    { "from": "RAJASTHAN", "to": "PARITOSH" },
+    { "from": "MAHARASHTRA", "to": "SUVAM" },
+    { "from": "RAJASTHAN", "to": "ASHISH" },
+    { "from": "DELHI", "to": "ABHINAV" },
+    { "from": "UTTAR PRADESH", "to": "DHRUV" }
+  ]
+}
