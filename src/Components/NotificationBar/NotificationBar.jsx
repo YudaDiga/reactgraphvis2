@@ -3,11 +3,7 @@ import "./NotificationBar.css";
 class NotificationBar extends Component {
   state = {};
   render() {
-    return (
-      <div className="NotificationBar">
-        <h1>Notification Bar</h1>
-      </div>
-    );
+    return <div className="NotificationBar"></div>;
   }
 }
 

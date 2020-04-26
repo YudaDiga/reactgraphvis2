@@ -1,13 +1,6 @@
 .NetworkMap {
-  background-image: url(../../Images/maxresdefault.jpg);
-  background-size: cover;
-  width: 900px;
-  height: 450px;
-  text-align: center;
-  margin: 20px;
-  border-radius: 25px;
-}
-.Graph {
-  width: 900px;
-  height: 450px;
+  background: #f8e7dd;
+  position: relative;
+  top: 0;
+  bottom: 0;
 }

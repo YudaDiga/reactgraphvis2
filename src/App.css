@@ -1,16 +1,14 @@
-.Header {
-  background: yellow;
-}
-.Body {
+.App {
   display: flex;
-  flex-basis: 50%;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.NotificationBar {
+.HeadDashPanel {
   flex: 1;
 }
-.NetworkMap {
+.NotificationBar {
   flex: 3;
 }
-.Footer {
-  text-align: center;
+.NetworkMap {
+  flex: 9;
 }

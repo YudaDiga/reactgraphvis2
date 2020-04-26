@@ -18,6 +18,10 @@ for (var i = 0; i < out.length; i++) {
   let node = {
     id: out[i].Node,
     city: out[i].CITY,
+    label: out[i].label,
+    shape: "circularImage",
+    image: "https://cdn.svgporn.com/logos/google-icon.svg",
+    info: out[i].Information,
   };
   graph.nodes.push(node);
   let edge = {

@@ -7,14 +7,9 @@ import NotificationBar from "./Components/NotificationBar/NotificationBar";
 function App() {
   return (
     <div className="App">
-      <header className="Header">
-        <HeadDashPanel />
-      </header>
-      <body className="Body">
-        <NotificationBar className="NotificationBar" />
-        <NetworkMap className="NetworkMap" />
-      </body>
-      <footer className="Footer">This is the Footer</footer>
+      <HeadDashPanel className="HeadDashPanel" />
+      <NotificationBar className="NotificationBar" />
+      <NetworkMap className="NetworkMap" />
     </div>
   );
 }

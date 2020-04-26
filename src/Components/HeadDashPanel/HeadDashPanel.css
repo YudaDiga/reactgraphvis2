@@ -1,7 +1,7 @@
 .HeadDashPanel {
-  background: yellow;
-  background-size: cover;
-  width: 100vmax;
-  height: 100px;
-  text-align: center;
+  background: #222b34;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  max-width: 50px;
 }

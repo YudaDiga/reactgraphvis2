@@ -13,11 +13,9 @@ const options = {
 };
 const events = {
   select: function (event) {
-    var { nodes, edges } = event;
-    console.log("Selected nodes:");
-    console.log(nodes);
-    console.log("Selected edges:");
-    console.log(edges);
+    const selectedNodeId = event.nodes[0];
+    const selectedNode = graph.nodes.find((v) => v.id === selectedNodeId);
+    window.alert(selectedNode.id);
   },
 };
 class NetworkMap extends Component {
@@ -30,7 +28,7 @@ class NetworkMap extends Component {
           graph={graph}
           options={options}
           events={events}
-          style={{ height: "450px" }}
+          style={{ height: "720px" }}
         />
       </div>
     );

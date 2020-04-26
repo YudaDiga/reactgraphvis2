@@ -3,11 +3,7 @@ import "./HeadDashPanel.css";
 class HeadDashPanel extends Component {
   state = {};
   render() {
-    return (
-      <div className="HeadDashPanel">
-        <h1>Head Dash Panel</h1>
-      </div>
-    );
+    return <div className="HeadDashPanel"></div>;
   }
 }
 

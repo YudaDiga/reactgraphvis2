@@ -1,11 +1,7 @@
 .NotificationBar {
-  background-color: wheat;
-  width: 50px;
-  height: 450px;
-  margin: 20px;
-  border-radius: 25px;
-  text-align: center;
-}
-.h1 {
-  text-align: center;
+  background: #26b2c3;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  max-width: 250px;
 }
