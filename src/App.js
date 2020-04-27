@@ -1,8 +1,14 @@
 import React from "react";
-import "./App.css";
+//import "./App.css";
+import "./App.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
 import HeadDashPanel from "./Components/HeadDashPanel/HeadDashPanel";
 import NetworkMap from "./Components/NetworkMap/NetworkMap";
 import NotificationBar from "./Components/NotificationBar/NotificationBar";
+import { BrowserRouter as Router } from "react-router-dom/Route";
+
+import { Container, Row, Col } from "react-bootstrap";
+
 let graph = require("./utils/graph.json");
 
 class App extends React.Component {
@@ -15,15 +21,22 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <HeadDashPanel className="HeadDashPanel" />
-        <NotificationBar
-          selectedNode={this.state.selectedNode}
-          className="NotificationBar"
-        />
-        <NetworkMap
-          changeSelectedNode={this.changeSelectedNode}
-          className="NetworkMap"
-        />
+        <Container fluid="true">
+          <Row>
+            <Col className="firstColumn">
+              <NotificationBar
+                selectedNode={this.state.selectedNode}
+                className="NotificationBar"
+              />
+            </Col>
+            <Col className="secondColumn" xs={8}>
+              <NetworkMap
+                changeSelectedNode={this.changeSelectedNode}
+                className="NetworkMap"
+              />
+            </Col>
+          </Row>
+        </Container>
       </div>
     );
   }

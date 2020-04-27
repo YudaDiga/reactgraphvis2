@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import "./NetworkMap.css";
+//import "./NetworkMap.css";
+import "./NetworkMap.scss";
 import Graph from "react-graph-vis";
+import { Card, Badge, Container } from "react-bootstrap";
 let graph = require("../../utils/graph.json");
 const NetworkMap = (props) => {
   const options = {
@@ -36,14 +38,20 @@ const NetworkMap = (props) => {
   };
   return (
     <div className="NetworkMap">
-      <h1 className="heading">Friends and Family Network Accross India</h1>
-      <Graph
-        className="Graph"
-        graph={graph}
-        options={options}
-        events={events}
-        style={{ height: "720px" }}
-      />
+      <h1 className="Heading">
+        <Badge variant="primary" shadow="sm">
+          Daimler RD/RTH Collaboration Layout
+        </Badge>
+      </h1>
+      <Container className="graphContent">
+        <Graph
+          className="Graph"
+          graph={graph}
+          options={options}
+          events={events}
+          style={{ height: "720px" }}
+        />
+      </Container>
     </div>
   );
 };
