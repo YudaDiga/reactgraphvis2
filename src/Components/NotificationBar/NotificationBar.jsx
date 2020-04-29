@@ -62,7 +62,9 @@ const NotificationBar = (props) => {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="3">
-                <Card.Body>{props.selectedNode.info}</Card.Body>
+                <div className="ImageContainer">
+                  <img className="Image" src={require("./UTTAR PRADESH.jpg")} />
+                </div>
               </Accordion.Collapse>
             </Card>
           </Accordion>
