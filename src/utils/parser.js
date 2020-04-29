@@ -19,10 +19,11 @@ for (var i = 0; i < out.length; i++) {
     id: out[i].Node,
     city: out[i].CITY,
     label: out[i].label,
-    shape: "circularImage",
-    image: "https://cdn.svgporn.com/logos/google-play-icon.svg",
-    imagedisplay: out[i].image,
+    shape: out[i].symbolType,
+    color: out[i].Color,
+    mass: out[i].mass,
     info: out[i].Information,
+    size: out[i].size,
   };
   graph.nodes.push(node);
   let edge = {

@@ -24,6 +24,11 @@ const NetworkMap = (props) => {
       font: {
         size: 18,
       },
+      shadow: {
+        enabled: true,
+        color: "#000000",
+        size: 15,
+      },
     },
   };
 
